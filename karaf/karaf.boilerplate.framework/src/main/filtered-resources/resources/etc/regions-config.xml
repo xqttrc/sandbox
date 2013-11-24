@@ -17,7 +17,59 @@
       limitations under the License.
 -->
 <regions xmlns="http://karaf.apache.org/xmlns/region/v1.0.0">
-    <region name="org.apache.karaf.region.application"></region>
+    <region name="org.apache.karaf.region.application">
+        <bundle location="repository/kernel/ch.qos.logback.classic_1.0.7.v20121108-1250.jar"/>
+        <bundle location="repository/kernel/ch.qos.logback.core_1.0.7.v20121108-1250.jar"/>
+        <bundle location="repository/kernel/ch.qos.logback.slf4j_1.0.7.v20121108-1250.jar"/>
+        <bundle location="repository/kernel/com.springsource.org.apache.commons.fileupload_1.2.0.v20110525.jar"/>
+        <bundle location="repository/kernel/com.springsource.org.apache.commons.io_1.4.0.jar"/>
+        <bundle location="repository/kernel/com.springsource.org.aspectj.weaver_1.6.12.RELEASE.jar"/>
+        <bundle location="repository/kernel/javax.servlet_3.0.0.v201112011016.jar"/>
+        <bundle location="repository/kernel/org.apache.felix.gogo.command_0.10.0.v201209301215.jar"/>
+        <bundle location="repository/kernel/org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar"/>
+        <bundle location="repository/kernel/org.apache.felix.gogo.shell_0.10.0.v201211091412.jar"/>
+        <bundle location="repository/kernel/org.apache.mina.core_2.0.2.v201108120515.jar"/>
+        <bundle location="repository/kernel/org.apache.sshd.core_0.5.0.v201108120515.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.cm_1.0.400.v20120319-2029.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.common_3.6.100.v20120509-1351.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.console_1.0.100.v20121001-124408.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.console.ssh_1.0.0.v20120430-1356.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.ds_1.4.0.v20120112-1400.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.event_1.2.100.v20111010-1614.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.frameworkadmin_2.0.0.v20110808-1657.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.frameworkadmin.equinox_1.0.400.v20120428-0117.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.http_1.0.500.v20110413.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.region_1.1.0.v20120319-1602.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.simpleconfigurator_1.0.300.v20110815-1744.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.jar"/>
+        <bundle location="repository/kernel/org.eclipse.equinox.util_1.0.300.v20111010-1614.jar"/>
+        <bundle location="repository/kernel/org.eclipse.gemini.management_1.0.5.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.osgi.services_3.3.0.v20120307-2102.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.management.fragment_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.medic_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.medic.core_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.medic.logbackclassicfragment_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.medic.logbackcorefragment_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.core_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.deployer_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.deployer.api_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.deployer.hot_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.management_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.management.controller_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.services.concurrent_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.nano.services.ds_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.common_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.io_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.jmx_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.math_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.osgi_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.osgi.manifest_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.eclipse.virgo.util.parser.manifest_3.6.2.RELEASE.jar"/>
+        <bundle location="repository/kernel/org.jolokia.osgi_1.0.2.jar"/>
+        <bundle location="repository/kernel/org.slf4j.api_1.7.2.v20121108-1250.jar"/>
+        <bundle location="repository/kernel/org.slf4j.jul_1.7.2.v20121108-1250.jar"/>
+        <bundle location="repository/kernel/osgi.enterprise_4.2.0.v201108120515.jar"/>
+    </region>
 
     <filter to="org.eclipse.equinox.region.kernel" from="org.apache.karaf.region.application">
         <package name="org.slf4j"/>

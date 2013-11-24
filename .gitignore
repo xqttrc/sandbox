@@ -6,3 +6,4 @@
 *.ear
 /karaf/karaf.launcher/target/
 /karaf/karaf.boilerplate.framework/target/
+/karaf/karaf.virgo.nano/target/

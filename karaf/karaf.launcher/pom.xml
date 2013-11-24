@@ -43,6 +43,13 @@
             <type>kar</type>
             <version>${project.version}</version>
         </dependency>
+        
+        <dependency>
+            <groupId>ossu.sandbox.karaf</groupId>
+            <artifactId>karaf.virgo.nano</artifactId>
+            <type>kar</type>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
     
     <build>
