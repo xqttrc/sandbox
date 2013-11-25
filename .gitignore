@@ -1,9 +1,18 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-/karaf/karaf.launcher/target/
-/karaf/karaf.boilerplate.framework/target/
-/karaf/karaf.virgo.nano/target/
+.svn/
+.idea/
+.settings/
+.project
+.classpath
+target/
+out/
+build/
+*.iml
+*.ipr
+atlassian-ide-plugin.xml
+jars/
+nbactions.xml
+nb-configuration.xml
+deploy-pom.xml
+/component/http/.clover/
+tmp/
+*.log

@@ -72,6 +72,7 @@
     </region>
 
     <filter to="org.eclipse.equinox.region.kernel" from="org.apache.karaf.region.application">
+        <package name="javax.xml.parsers"/>
         <package name="org.slf4j"/>
         <package name="org.apache.aries.util"/>
         <package name="org.apache.aries.util.io"/>
